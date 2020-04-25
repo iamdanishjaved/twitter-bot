@@ -9,4 +9,11 @@ Download driver for your browser engine
 ## Step .2
 Install selenium
 
-```pip install selenium```
+```
+pip install selenium
+```
+
+## Step .3
+Set your credentials and path directories in `config.py` 
+
+And run `login.py`
