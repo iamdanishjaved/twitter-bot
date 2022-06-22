@@ -3,7 +3,7 @@ from automation.twitter_base import Twitter
 
 
 if __name__ == '__main__':
-    twitter = Twitter()
+    twitter = Twitter('chrome')
     login = twitter.login()
     if login:
         twitter.search()
